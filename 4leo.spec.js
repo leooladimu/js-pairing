@@ -43,7 +43,4 @@ describe('array equality test', () => {
     test('same chars different case', () => {
         expect(my4leofuncs.arrayEqualityTest(["qwe"],["QWE"],"whatever")).toBe(false);
     });
-    test('same objects', () => {
-        expect(my4leofuncs.arrayEqualityTest([{'a':1},{'b':2}],[{'a':1},{'b':2}],"whatever")).toBe(true);
-    });
 });
