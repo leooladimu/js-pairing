@@ -4,7 +4,7 @@ const data1 = [
 
 const data2 = [
     [['name', 'Alex'], ['age', '40'],['status', 'novice']],
-    [['name', 'Leo'], ['age','45'],['status', 'student']]
+    [['name', 'Leo'], ['age','50 going on 20'],['status', 'student']]
 ];
 
 const my4leofuncs = require('./4leo');
@@ -20,7 +20,7 @@ describe('transformEmployeeData works ', () => {
                                                                     'age': '40',
                                                                     'status': 'novice'},
                                                                    {'name': "Leo",
-                                                                    'age': '45',
+                                                                    'age': '50 going on 20',
                                                                     'status': 'student'}]);
 
      });
